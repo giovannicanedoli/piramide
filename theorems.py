@@ -33,8 +33,8 @@ def teorema_inverso_di_bolzano():
     plt.ylabel("y")
     #fig.axes.get_xaxis().set_visible(False)
     #fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_inverso_di_bolzano_dim():
     plt.title(r'Teorema inverso di Bolzano', fontfamily = 'serif', fontweight = 'roman')
@@ -51,8 +51,8 @@ def teorema_inverso_di_bolzano_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_ponte():
     plt.title(r'Teorema Ponte', fontfamily = 'serif', fontweight = 'roman')
@@ -62,8 +62,8 @@ def teorema_ponte():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_ponte_dim():
     plt.title(r'Teorema Ponte', fontfamily = 'serif', fontweight = 'roman')
@@ -93,8 +93,8 @@ def teorema_ponte_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_weirstrass():
     plt.title(r'Teorema di Weirstrass', fontfamily = 'serif', fontweight = 'roman')
@@ -123,8 +123,8 @@ def teorema_di_weirstrass():
     plt.ylabel("y")
     #fig.axes.get_xaxis().set_visible(False)
     #fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_weirstrass_dim():
     plt.title(r'Teorema di Weirstrass', fontfamily = 'serif', fontweight = 'roman')
@@ -153,8 +153,8 @@ def teorema_di_weirstrass_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_fermat():
     plt.title(r'Teorema di Fermat', fontfamily = 'serif', fontweight = 'roman')
@@ -183,8 +183,8 @@ def teorema_di_fermat():
     plt.ylabel("y")
     #fig.axes.get_xaxis().set_visible(False)
     #fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_fermat_dim():
     plt.title(r'Teorema di Fermat', fontfamily = 'serif', fontweight = 'roman')
@@ -208,8 +208,8 @@ def teorema_di_fermat_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_lagrange():
     plt.title(r'Teorema di Lagrange', fontfamily = 'serif', fontweight = 'roman')
@@ -231,14 +231,14 @@ def teorema_di_lagrange():
     plt.plot([6, 9], [np.sin(6), np.sin(6)], color= 'black', ls= '--')
     plt.annotate(r'f(b) - f(a)', (8.65, 0))
     plt.annotate(r'a - b', (7.5, np.sin(6) + 0.10))
-    plt.plot([6, 9], [np.sin(6) + 0.885 , np.sin(9) + 0.885])
+    plt.plot([6, 9], [np.sin(6) + 0.8788 , np.sin(9) + 0.8788])
     plt.annotate(r'$\frac{df(x_0)}{dx}$', (6.9, 0.9))
     plt.xlabel("x")
     plt.ylabel("y")
     #fig.axes.get_xaxis().set_visible(False)
     #fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_lagrange_dim():
     plt.title(r'Teorema di Lagrange', fontfamily = 'serif', fontweight = 'roman')
@@ -256,8 +256,8 @@ def teorema_di_lagrange_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_rolle():
     plt.title(r'Teorema di Rolle', fontfamily = 'serif', fontweight = 'roman')
@@ -281,8 +281,8 @@ def teorema_di_rolle():
     plt.ylabel("y")
     #fig.axes.get_xaxis().set_visible(False)
     #fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_rolle_dim():
     plt.title(r'Teorema ', fontfamily = 'serif', fontweight = 'roman')
@@ -304,7 +304,8 @@ def teorema_di_rolle_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    plt.show()
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_cauchy():
     plt.title(r'Teorema di Cauchy', fontfamily = 'serif', fontweight = 'roman')
@@ -315,9 +316,9 @@ def teorema_di_cauchy():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
-
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
+    
 def teorema_di_cauchy_dim():
     plt.title(r'Teorema di Cauchy', fontfamily = 'serif', fontweight = 'roman')
     plt.text(0.010, 0.1, r'''Dim: procediamo alla dimostrazione utilizzando la funzione
@@ -337,8 +338,8 @@ def teorema_di_cauchy_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_di_delHopital():
     plt.title(r"Teorema di de l' $H\hat o pital $", fontfamily = 'serif', fontweight = 'roman')
@@ -356,8 +357,8 @@ def teorema_di_delHopital():
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
     #plt.show()
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_del_confronto():
     plt.title(r'Teorema del confornto', fontfamily = 'serif', fontweight = 'roman')
@@ -370,8 +371,8 @@ def teorema_del_confronto():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_del_confronto_dim():
     plt.title(r'Teorema del confornto', fontfamily = 'serif', fontweight = 'roman')
@@ -392,8 +393,8 @@ def teorema_del_confronto_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_unicita_limite():
     plt.title(r'Teorema di unicità del limite', fontfamily = 'serif', fontweight = 'roman')
@@ -401,8 +402,8 @@ def teorema_unicita_limite():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_unicita_limite_dim():
     plt.title(r'Teorema di unicità del limite', fontfamily = 'serif', fontweight = 'roman')
@@ -421,8 +422,8 @@ def teorema_unicita_limite_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_degli_zeri():
     plt.title(r'Teorema ', fontfamily = 'serif', fontweight = 'roman')
@@ -446,8 +447,8 @@ def teorema_degli_zeri():
     plt.ylabel("y")
     #fig.axes.get_xaxis().set_visible(False)
     #fig.axes.get_yaxis().set_visible(False)
-    img = plt.figure()
-    return img
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_degli_zeri_dim():
     plt.title(r'Teorema degli zeri', fontfamily = 'serif', fontweight = 'roman')
@@ -455,8 +456,8 @@ def teorema_degli_zeri_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    plt.show()
-
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 def teorema_della_permanenza_del_segno():
     plt.title(r'Teorema della permanenza del segno', fontfamily = 'serif', fontweight = 'roman')
     plt.text(0.010, 0.8, r'''Th: Sia f(x) una funzione definita in un intorno di $x_0$ e sia continua
@@ -465,7 +466,8 @@ def teorema_della_permanenza_del_segno():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    plt.show()
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def teorema_della_permanenza_del_segno_dim():
     plt.title(r'Teorema della permanenza del segno', fontfamily = 'serif', fontweight = 'roman')
@@ -483,7 +485,8 @@ def teorema_della_permanenza_del_segno_dim():
     fig = plt.gca()
     fig.axes.get_xaxis().set_visible(False)
     fig.axes.get_yaxis().set_visible(False)
-    plt.show()
+    fig = plt.gcf()
+    fig.set_size_inches((16, 9))
 
 def display(t):    #funzione che permette di richiamare una delle funzioni precedenti usando il numero in cui sono posizioate. Counsultare il main code per capire perché serve
     if t == 1:
