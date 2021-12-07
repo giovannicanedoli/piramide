@@ -202,7 +202,7 @@ def teorema_di_fermat_dim():
 
     $f'(x_0) = \lim_{h \to 0^+} [f(x_0 + h) - f(x_0)]/h \leq 0 $;
 
-    $f'(x_0) = \lim{h \to 0^-} [f(x_0 + h) - f(x_0)]/h \geq 0 $
+    $f'(x_0) = \lim_{h \to 0^-} [f(x_0 + h) - f(x_0)]/h \geq 0 $
 
     Ne segue che $f'(x_0) = 0$''', fontfamily = 'serif', fontweight = 'roman')
     fig = plt.gca()
